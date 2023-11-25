@@ -89,16 +89,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     msgMe("images/studentBoy.jpeg", "Ahmad Khalel",
                         "You : Good Jop 🤩👏", "1 minutes ago", context),
-                    msgMe("images/studentBoy.jpeg", "Waleed Asad",
-                        "Waleed Asad : Thanks 🙏", "5 minutes ago", context),
+                    msgMe("images/najah.jpg", "NNU", "NNU : Ok we will se.. ",
+                        "5 minutes ago", context),
                     msgMe(
                         "images/studentGirl.jpeg",
                         "Sally Qasem",
                         "Sally Qasem : Please Bos...",
                         "10 minutes ago",
                         context),
-                    msgMe("images/studentBoy.jpeg", "Basem Ahmad",
-                        "Basem Ahmad : Boss yes..", "50 minutes ago", context),
+                    msgMe("images/Harri.jpeg", "Harri", "Harri : Ok Not bad..",
+                        "50 minutes ago", context),
                   ],
                 ))));
   }

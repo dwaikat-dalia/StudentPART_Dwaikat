@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Tab(
                 icon: Icon(
-                  Icons.menu,
+                  Icons.person,
                   size: 28,
                 ),
               ),
