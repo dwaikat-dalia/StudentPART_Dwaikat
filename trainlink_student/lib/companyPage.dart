@@ -214,9 +214,9 @@ class _CompanyPageState extends State<CompanyPage> {
               Row(
                 children: <Widget>[
                   Container(
-                    width: 390.0,
-                    height: 50.0,
-                    margin: EdgeInsets.only(top: 10, bottom: 10),
+                    //  width: 90.0,
+                    height: 70.0,
+                    //   margin: EdgeInsets.only(top: 10, bottom: 10),
                     // color: Color(0xff003566),
                     child: Row(
                       children: <Widget>[

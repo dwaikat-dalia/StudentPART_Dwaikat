@@ -109,8 +109,8 @@ Widget msgMe(photo33, name33, contentpost33, time33, context) {
     onPressed: () {
       Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => MyHomePagee(
-                photo33,
-                name33,
+               name33, photo33,
+                
               )));
     },
     // padding: const EdgeInsets.all(8.0),

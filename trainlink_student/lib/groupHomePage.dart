@@ -151,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 Container(
                   width: 390.0,
-                  height: 50.0,
+                  height: 70.0,
                   margin: EdgeInsets.only(top: 10, bottom: 10),
                   // color: Color(0xff003566),
                   child: Row(
@@ -167,7 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ))
                         ],
                       ),
-                /*      Column(
+                      /*      Column(
                         children: [
                           Padding(
                             padding:
@@ -196,7 +196,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           )
                         ],
                       ),
-               */     ],
+               */
+                    ],
                   ),
                 ),
                 Divider(

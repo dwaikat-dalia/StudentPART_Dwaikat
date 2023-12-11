@@ -176,7 +176,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         alignment: Alignment.center,
                         onChanged: (String? newValue) {
                           setState(() {
-                            
                             if (newValue == "Nothing") {
                               dropdownValue = null;
                             } else {
@@ -528,7 +527,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: <Widget>[
               Container(
                 width: 390.0,
-                height: 50.0,
+                height: 60.0,
                 margin: EdgeInsets.only(top: 10, bottom: 10),
                 // color: Color(0xff003566),
                 child: Row(

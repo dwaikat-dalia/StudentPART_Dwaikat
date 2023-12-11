@@ -361,7 +361,7 @@ class _Reports22State extends State<Reports22> {
                           decoration: BoxDecoration(
                               color: Color.fromARGB(96, 255, 196, 0),
                               borderRadius: BorderRadius.circular(20)),
-                          height: 150,
+                          height: 250,
                           width: 410,
                           padding: EdgeInsets.all(5),
                           child: Column(
@@ -393,7 +393,7 @@ class _Reports22State extends State<Reports22> {
                           decoration: BoxDecoration(
                               color: Color.fromARGB(96, 255, 196, 0),
                               borderRadius: BorderRadius.circular(20)),
-                          height: 300,
+                          // height: 400,
                           width: 410,
                           padding: EdgeInsets.all(5),
                           child: Column(
@@ -406,7 +406,7 @@ class _Reports22State extends State<Reports22> {
                               ),
                               Container(
                                 width: 300,
-                                height: 270,
+                                height: 170,
                                 // color: Colors.red,
                                 child: TextField(
                                   maxLength: 1800,

@@ -18,17 +18,19 @@ class Message {
 class MyHomePagee extends StatefulWidget {
   var name;
   var photo;
-  MyHomePagee(this.photo, this.name);
+
+  MyHomePagee(this.name,this.photo);
+
 
   @override
   // ignore: library_private_types_in_public_api
-  _MyHomePageeState createState() => _MyHomePageeState(photo, name);
+  _MyHomePageeState createState() => _MyHomePageeState(this.name,this.photo);
 }
 
 class _MyHomePageeState extends State<MyHomePagee> {
   String name;
   String photo;
-  _MyHomePageeState(this.photo, this.name);
+  _MyHomePageeState(this.name,this.photo);
   List<Message> messages = [
     Message(
         text: 'Ok Boss, Do not worry , and thanks again 🤜🤛',
